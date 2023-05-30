@@ -1,6 +1,5 @@
 :root{
-    --KichThuocNgang: 50%;
-    --KichThuocDoc: 50%;
+    --KichThuoc: 100%;
 }
 
 *{
@@ -12,25 +11,36 @@ body{
     text-align: center;
 }
 .Ảnh{
+    margin: 0;
+    padding: 0;
+    width: 100%;
     text-align: center;
-    margin: auto 20;
-    position: relative;
+    margin: auto;
+}
+.ảnh_1{
+    width: 100%;
 }
 .Video_2{
-    margin: 40 auto;
+    width: var(--KichThuoc);
+    margin: auto;
     position: relative;
+}
+.video2{
+    width: var(--KichThuoc);
 }
 .Video_3{
-
-    margin: 40 auto;
+    width: var(--KichThuoc);
+    margin: auto;
     position: relative;
+}
+.video3{
+    width: var(--KichThuoc);
 }
 .Video_4{
-    margin: 40 auto;
+    width: var(--KichThuoc);
+    margin: auto;
     position: relative;
 }
-@keyframes Truot{
-    to{
-        transform: translateY(1600px);
-    }
+.video4{
+    width: var(--KichThuoc);
 }
