@@ -1,0 +1,36 @@
+:root{
+    --KichThuocNgang: 50%;
+    --KichThuocDoc: 50%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.Ảnh{
+    text-align: center;
+    margin: auto 20;
+    position: relative;
+}
+.Video_2{
+    margin: 40 auto;
+    position: relative;
+}
+.Video_3{
+
+    margin: 40 auto;
+    position: relative;
+}
+.Video_4{
+    margin: 40 auto;
+    position: relative;
+}
+@keyframes Truot{
+    to{
+        transform: translateY(1600px);
+    }
+}
